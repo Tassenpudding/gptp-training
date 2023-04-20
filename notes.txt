@@ -1,0 +1,28 @@
+audio video bridging
+time sensitive networking
+
+ntp to sync time between a pc and a server
+
+more accurate but local
+
+e.g. infotainment or festivals, concerts
+
+PTP i go not into details
+
+PTP for local systems that need better accuracy then NTP
+
+ptp time is based on the international atomic time
+so basically nanoseconds since 1970-01-01
+
+generic precision time protocol
+
+gPTP IEEE 802.1AS based on PTP IEEE1588
+
+time synchronisation via ethernet
+point to point protocol
+
+hardware needs to support this
+you receive the timestamp of the sent or received packet
+
+i do not explain the protocol in detail
+i will explain the basics of the procedure to get the clock synchronized
